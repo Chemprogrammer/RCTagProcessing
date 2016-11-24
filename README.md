@@ -7,3 +7,9 @@ HTML-like text formatting tag parsing for UILabels and UIButtons on iOS, similar
 Currently supported tags are:
 
 &lt;b&gt;, &lt;u&gt;, &lt;i&gt;, &lt;sup&gt;, &lt;sub&gt;, &lt;strike&gt;, &lt;small&gt;
+
+TODO
+===============
+Convert to Swift.
+Update to iOS 10.
+Write comparison with `NSAttributedString`'s `-[initWithData:options:documentAttributes:error]` including comparison performance tests.
